@@ -16,7 +16,9 @@
 title: donaldheppner.dev
 email: donald.heppner.public@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Something about me
+  I love software development and learning new things. I work at Avanade, where
+  I lead the Digital Studio in Raleigh, NC and support our customers as they look
+  to leverage the latest technology to solve enterprise problems.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: donheppner
