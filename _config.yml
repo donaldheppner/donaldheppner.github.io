@@ -14,7 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: donaldheppner.dev
-email: donald.heppner.public@gmail.com
+email: 
 description: >- # this means to ignore newlines until "baseurl:"
   I love software development and learning new things. I work at Avanade, where
   I lead the Digital Studio in Raleigh, NC and support our customers as they look
