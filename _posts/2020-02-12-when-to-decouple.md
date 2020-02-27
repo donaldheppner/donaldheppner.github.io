@@ -55,8 +55,8 @@ There are several ways to decouple systems, but a modern architectural approach
 is to leverage a cloud-native architecture using micro-services and
 message-based communication. It’s a PaaS-first approach: easy to provision, you
 can start with as little as you need, and be confident in its ability to scale
-and grow over time. Furthermore, system-specific architectural decisions are
-limited to the implementation of services themselves. The patterns for sharing
+and grow over time. Architectural decisions about how to decouple a specific system
+are scoped to the microservices decoupling that system. The patterns for sharing
 information out and between services are well-established and directly supported
 by PaaS components.
 
