@@ -14,13 +14,12 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: donaldheppner.dev
-email: 
-description: >- # this means to ignore newlines until "baseurl:"
-  I love software development and learning new things. I work at Avanade, where
-  I lead the Digital Studio in Raleigh, NC and support our customers as they look
-  to leverage the latest technology to solve enterprise problems.
+author: Donald Heppner
+email: donald.heppner@gmail.com
+description: Thinking about how enterprises can build software better to build better software
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: http://donaldheppner.dev # the base hostname & protocol for your site, e.g. http://example.com
+
 twitter_username: donheppner
 github_username:  donaldheppner
 
@@ -29,6 +28,7 @@ markdown: kramdown
 theme: minima
 plugins:
   - jekyll-feed
+#  - jekyll-seo-tag
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
