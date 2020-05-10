@@ -1,8 +1,9 @@
 ---
 layout: post
-date: "2020-02-26 19:30:00 -0500"
+date: "2020-02-26"
 title: "When to Decouple Systems"
-categories: architecture decoupling microservices transformation
+category: architecture
+tags: architecture decoupling microservices transformation
 ---
 
 Organizations have made huge investments in software and technology to stay
