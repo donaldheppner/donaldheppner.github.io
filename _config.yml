@@ -16,7 +16,7 @@
 title: donaldheppner.dev
 author: Donald Heppner
 email: donald.heppner@gmail.com
-description: Thinking about how enterprises can build software better to build better software
+description: Thinking about how enterprises can build software better so they can build better software
 baseurl: "" # the subpath of your site, e.g. /blog
 url: http://donaldheppner.dev # the base hostname & protocol for your site, e.g. http://example.com
 
