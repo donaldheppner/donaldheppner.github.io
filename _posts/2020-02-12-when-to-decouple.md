@@ -1,9 +1,16 @@
 ---
-layout: post
-date: "2020-02-26"
 title: "When to Decouple Systems"
-category: architecture
-tags: architecture decoupling microservices transformation
+last_modified_at: 2020-02-26
+categories:
+  - architecture
+tags:
+  - architecture
+  - decoupling
+  - microservices
+  - transformation
+excerpt: |
+  Decoupling systems is a proven way to unlock value across a landscape of existing
+  enterprise systems, but when does it make sense to invest in this approach?
 ---
 
 Organizations have made huge investments in software and technology to stay

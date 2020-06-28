@@ -1,9 +1,15 @@
 ---
-layout: post
-date: "2020-05-11"
 title: "Microservices: A New Approach to Old Ideas"
-category: architecture
-tags: architecture microservices agile DDD
+last_modified_at: 2020-05-11
+categories:
+  - architecture
+tags:
+  - architecture
+  - microservices
+  - agile
+  - DDD
+excerpt: |
+  "Microservices" is a trendy new architectural style, but its built on principles that have been around for decades that are widely accepted and well understood
 ---
 
 What I find so attractive about microservices is that they provide a way of realizing long-sought principles and practices of software development by using lightweight, but powerful tools. This grounding in widely accepted best practices without many of the compromises or heavy up-front investment, required by approaches of the past, means you can approach them incrementally and with confidence. “Betting” on microservices is very different than bets of the past like J2EE or [RUP](https://en.wikipedia.org/wiki/Rational_Unified_Process) (tool heavy, vendor defined) or [ESB](https://en.wikipedia.org/wiki/Enterprise_service_bus)s (product-bound). Betting on microservices is kind of like betting on building something the way you’ve always wanted to.
@@ -21,9 +27,11 @@ The strategies and patterns used for complex processes are _local to the process
 The autonomy of each microservice means that what architectural decisions you do make are _local to the service_. In systems with non-autonomous (interconnected) components, architectural decisions are very difficult because of the wide-ranging implications of those decisions – this also makes the decisions much more permanent. Because each microservice can have its own architecture, you can be much more brazen and opinionated (which generally leads to simpler software and less code), and if you get it wrong, the smaller scope of the service means you can change it much more easily. In fact, based on our definition of architecture (important _and_ hard to change), we aren’t making architectural decisions.
 
 ## Domain-Driven Design – Evans
-I loved reading Domain-Driven Design: it was like when you read your first book about software patterns and you find out there are standard names and structures for what you’ve been doing all along. Domain-driven design is generally difficult, and becomes more difficult when you rely on complicated systems (like many out-of-the box enterprise products) that, more often than not, force you to use _their_ domain to describe _your_ business. Starting from this already imperfect match, business is constantly evolving, and rarely does the path of that evolution match the path of the systems you’ve integrated. As the gap between the system and the business increases, that’s when the real pain of these now “legacy” systems is felt. The software you’ve invested so much in to try to enable the business becomes widely viewed as an encumbrance. By contrast, domain-driven design is about starting with a domain that is defined by the business and evolving that domain as the business evolves, integrating systems only where and to the degree that it complements the business domain (and being able to drop them when it makes sense).
+Domain-Driven Design is an approach to building software that requires a shared understanding between the engineering team and the business it supports. The benefit of domain-driven design is that your software is well aligned with the business and is easy to change as the business evolves. The drawback is that domain-driven design can be difficult to achieve, particularly when much of the domain is supported by third party monolithic enterprise systems that often force you to use _their_ domain to describe _your_ business. Add to that the point-to-point integration patterns that bind and bleed systems together, and not only have you forsaken domain-driven design, your IT landscape becomes increasingly rigid and difficult to change.
 
-The _foundational principle_ of microservices is that they be domain defined, and what tooling exists is in direct support of being able to define the services quickly and easily in your domain language. As Evans states, “Domain-driven design is a difficult technical challenge that can pay off big, opening opportunities just when most software projects begin to ossify into legacy”. Microservices provide a well-defined means of addressing the technical challenges while delivering the benefits of domain-driven design.
+Even if the systems and business were aligned at one point, business is constantly evolving, and rarely does the path of the business's evolution match the path of the systems you’ve integrated. As the gap between the system and the business increases over time, the software you’ve invested so much in to try to enable the business becomes widely viewed as an encumbrance.
+
+The _foundational principle_ of microservices is that they be domain defined, and what tooling exists is in direct support of being able to define the services quickly and easily in your domain language. The integration patterns of the microservices architectural style creates space for the domain to thrive, decoupling legacy systems with business defined contracts that help maintain the agility of your IT landscape. As Evans states, “Domain-driven design is a difficult technical challenge that can pay off big, opening opportunities just when most software projects begin to ossify into legacy”. Microservices provide a well-defined means of addressing the technical challenges while delivering the benefits of domain-driven design.
 
 ## Inherently Agile
 As an industry, we have become very adept at “doing agile” without “being agile”, meaning we follow some methodology and do stand-ups and have a backlog, but we produce processes and systems that are slow and resist change. There are many reasons for this, but microservices provide a way of realizing the promise of agile: to be able to move quickly and easily.
