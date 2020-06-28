@@ -9,11 +9,8 @@ tags:
   - microservices
   - transformation
 excerpt: |
-  Decoupling systems via microservices is a proven way to unlock value across
-  a landscape of existing enterprise systems, but when does it make sense to
-  invest in this approach?
-comments: true
-toc: true
+  Decoupling systems is a proven way to unlock value across a landscape of existing
+  enterprise systems, but when does it make sense to invest in this approach?
 ---
 
 Organizations have made huge investments in software and technology to stay

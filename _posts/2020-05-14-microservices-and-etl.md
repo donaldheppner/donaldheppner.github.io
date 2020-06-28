@@ -1,5 +1,6 @@
 ---
 title: "Microservices and ETL"
+last_modified_at: 2020-05-14
 categories:
   - architecture
 tags:
@@ -11,6 +12,9 @@ tags:
   - Data Swamp
   - Data Lake
   - DDD
+excerpt: |
+  Traditional ETL is an anti-pattern when it comes to decoupling. What are alternatives
+  to ETL and how do microservices approach this problem?
 ---
 
 TL;DR:

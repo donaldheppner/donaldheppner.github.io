@@ -1,6 +1,7 @@
 ---
-permalink: /about/
 title: "About"
+layout: single
+permalink: /about/
 ---
 
 I lead Avanade's Digital Studio in Raleigh, North Carolina, from where we help clients

@@ -1,5 +1,6 @@
 ---
 title: "How To: Create Multiple Profiles in Chrome"
+last_modified_at: 2020-05-10
 categories:
   - howto
 tags:
@@ -7,6 +8,8 @@ tags:
   - productivity
   - browser
   - chrome
+excerpt: |
+  How to solve authentication woes by using multiple profiles in Chrome
 ---
 
 I frequently find myself logging into the same SaaS applications for different clients simultaneously. Examples of such applications include: Azure Portal, Azure DevOps, Microsoft Teams, Microsoft SharePoint, etc. I also have multiple Google accounts for my personal e-mail and Google Play Store. While each of these services support multiple logins, switching accounts is a pain and often doesn’t support you using more than one account at a time across browser windows or tabs. In the past you may have overcome this by installing multiple browsers (ex: Chrome for personal, Edge for company, Firefox for projects) or making heavy use of incognito mode, but browsers like Chrome and Edge (and probably others) now make it easy to run account-specific sandboxes. It’s a far more convenient solution and solves problems like:
