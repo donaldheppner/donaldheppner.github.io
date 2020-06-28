@@ -1,9 +1,16 @@
 ---
-layout: post
-date: "2020-05-22"
 title: "What is a Microservice"
-category: architecture
-tags: architecture microservices DDD events messages product API data
+categories:
+  - architecture
+tags:
+  - architecture
+  - microservices
+  - DDD
+  - events
+  - messages
+  - product
+  - API
+  - data
 ---
 
 There are many different definitions of a microservice out there. As more and more people enter the space and provide tools to support microservice development, the definition of a microservice only becomes more confusing (kind of like what happened with “devops”). When I write of microservices, I have a very specific definition in mind. Hopefully this post will help bring some clarity, at least within the context of this blog.

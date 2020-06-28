@@ -1,9 +1,12 @@
 ---
-layout: post
-date: "2020-05-11"
 title: "Microservices: A New Approach to Old Ideas"
-category: architecture
-tags: architecture microservices agile DDD
+categories:
+  - architecture
+tags:
+  - architecture
+  - microservices
+  - agile
+  - DDD
 ---
 
 What I find so attractive about microservices is that they provide a way of realizing long-sought principles and practices of software development by using lightweight, but powerful tools. This grounding in widely accepted best practices without many of the compromises or heavy up-front investment, required by approaches of the past, means you can approach them incrementally and with confidence. “Betting” on microservices is very different than bets of the past like J2EE or [RUP](https://en.wikipedia.org/wiki/Rational_Unified_Process) (tool heavy, vendor defined) or [ESB](https://en.wikipedia.org/wiki/Enterprise_service_bus)s (product-bound). Betting on microservices is kind of like betting on building something the way you’ve always wanted to.

@@ -1,9 +1,16 @@
 ---
-layout: post
-date: "2020-05-14"
 title: "Microservices and ETL"
-category: architecture
-tags: architecture microservices ETL "Data API" Analytics "Data Swamp" "Data Lake" DDD
+categories:
+  - architecture
+tags:
+  - architecture
+  - microservices
+  - ETL
+  - Data API
+  - Analytics
+  - Data Swamp
+  - Data Lake
+  - DDD
 ---
 
 TL;DR:
