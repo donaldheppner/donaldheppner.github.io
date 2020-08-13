@@ -18,7 +18,7 @@ excerpt: |
 ---
 
 TL;DR:
-- ETL jobs are middleware that is difficult to maintain and that deeply couple data sources with data consumers.
+- ETL jobs are difficult to maintain middleware that deeply couples data sources with data consumers.
 - Data APIs address the middleware and maintenance issues of ETL jobs, but still couple systems and can run into scalability issues that are poorly solved by API Management.
 - By following a microservices approach, data is published with domain-defined events, addressing issues of coupling and scale; this approach applies equally well to systems integration as it does analytics.
 
