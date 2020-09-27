@@ -7,10 +7,10 @@ tags:
   - architecture
   - microservices
   - ETL
-  - Data API
-  - Analytics
-  - Data Swamp
-  - Data Lake
+  - data API
+  - analytics
+  - data swamp
+  - data lake
   - DDD
 excerpt: |
   Traditional ETL is an anti-pattern when it comes to decoupling. What are alternatives
