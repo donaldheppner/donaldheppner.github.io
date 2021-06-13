@@ -1,5 +1,5 @@
 ---
-title: "Random Thoughts: Shipping"
+title: "Random Thoughts: Bugs"
 last_modified_at: 2021-04-28
 categories:
   - random
